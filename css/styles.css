@@ -1,0 +1,385 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+h1{font-size: 3.5em;}
+h2{font-size: 2.7em;}
+h3{font-size: 2em;}
+p{font-size: 1.25em;}
+ul{list-style: none;}
+li{font-size: 1.25em;}
+
+button{
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: white;
+    background-color: rgb(82, 82, 207);
+}
+
+button:hover{
+    background-color: blue;
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+header{
+    background-color: aliceblue;
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: blue;
+    font-size: 1.7em;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction:row;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color: blue;
+}
+
+#banner1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: linear-gradient(
+       0deg,
+       rgba(0,0,0,0.5),
+       rgba(0,0,0,0.5) 
+    )
+    ,url(../media/banner1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#banner1 h1{
+    color: chartreuse;
+}
+
+#banner2{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5) 
+     )
+     ,url(../media/consultas.jpg);
+     color: white;
+     margin-top: 30px;
+     margin-right: 200px;
+     margin-left: 200px;
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: cover;
+     border-radius: 200px;
+}
+
+#banner2 .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#nuestros-servicios{
+    background-color: aliceblue;
+    text-align: center;
+}
+
+#nuestros-servicios .container{
+    padding: 50px 0px;
+}
+
+#nuestros-servicios h2{
+    margin-top: 0;
+    font-size: 3.6em;
+}
+
+#nuestros-servicios p{
+    color: white;
+}
+
+#nuestros-servicios .cartilla{
+    padding-bottom: 40px;
+    padding-top: 10px;
+    margin: 20px;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.cartilla:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5) 
+     )
+     ,url(../media/servicioelectrico.jpg);
+     color: white;
+}
+
+.cartilla:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5) 
+     )
+     ,url(../media/aguapotable.jpg);
+     color: white;
+}
+
+.cartilla:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5) 
+     )
+     ,url(../media/internet.jpg);
+     color: white;
+}
+
+.cartilla:nth-child(4){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5) 
+     )
+     ,url(../media/telefoniacelular.jpg);
+     color: white;
+}
+
+.cartilla:nth-child(5){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5) 
+     )
+     ,url(../media/hotel.jfif);
+     color: white;
+}
+
+.cartilla:nth-child(6){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5) 
+     )
+     ,url(../media/electrodomesticos.jpg);
+     color: white;
+}
+
+#videi{
+    text-align: center;
+    margin: auto;
+    background-color: aliceblue;
+}
+
+footer{
+    background-color: aliceblue;
+}
+
+.contact-form{
+    width: 700px; 
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color: #fbfbfb; 
+    padding-left: 30px; 
+    background-color: aliceblue;
+}
+
+input{
+    background-color: #fbfbfb; 
+    width: 650px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #ab4493; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+}
+
+textarea{
+    background-color: #fbfbfb; 
+    width: 650px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #ab4493; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+}
+
+label{
+    display: block; 
+    float: center;  
+}
+
+.formulario input:focus{
+    outline:0;
+    border: 1px solid #97d848;
+}
+  
+  
+  .formulario textarea:focus{
+    outline:0;
+    border: 1px solid #97d848;
+}
+
+#superior-arriba h1{
+    text-align: center;
+    padding: 30px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5) 
+     )
+     ,url(../media/banner1.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     color: #97d848;
+}
+
+#superior-arriba p{
+    font-size: 40px;
+    padding: 40px;
+}
+
+#superior-arriba{
+    background-color:aliceblue;
+    margin: 20px;
+    padding: 30px;
+}
+
+#novedadcoope .container{
+    background-color: aliceblue;
+    display: flexbox;
+    align-items: left;
+}
+
+
+
+
+
+
+
+
+body{
+    background-image: url(img/fondo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 15px;
+}
+
+.form{
+    width: 450px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    background: rgba(15, 50, 72, 0.3);
+    border-radius: 5px;
+}
+
+.titulo{
+    color: #1d4169;
+    margin-bottom: 20px;
+}
+
+.cajas{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    border: none;
+    border-left: 10px solid #d9e4ea;
+    transition: all .5s ease;
+}
+.cajas:hover, .cajas:focus{
+    border-left: 10px solid #1a4c7e;
+}
+
+.termino1{
+    text-align: center;
+    color: #3b3b3b;
+}
+.termino2{
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+.termino2:hover{
+    color: #dbdbdb;
+}
+
+.btn{
+    width: 100%;
+    padding: 15px;
+    border-radius: 2px;
+    border: none;
+    margin: 20px 0;
+    font-size: 15px;
+    background: #225677;
+    color: white;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.btn:hover{
+    background: #133043;
+}
+
+.tengo-cuenta{
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+}
+.tengo-cuenta:hover{
+    color: #dbdbdb;
+}
