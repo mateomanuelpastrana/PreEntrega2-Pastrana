@@ -1,39 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cooperativa Electrica</title>
-    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/boot.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <p class="logo">Cooperativa Electrica</p>
-            <nav>
-                <a href="../index.html">Inicio</a>
-                <a href="../pages/institucional.html">Institucional</a>
-                <a href="../pages/contacto.html">Contacto</a>
-                <a href="../pages/novedades.html">Novedades</a>
-            </nav>
-        </div>
-    </header>
+     <div class="bodycss">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Coop</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  <a class="nav-link" href="../pages/institucional.html">Institucional</a>
+                  <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                  <a class="nav-link" href="../pages/novedades.html">Novedades</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+     </div>
 
-    <section id="novedadcoope">
-        <div class="container">
-            <h2>Noticias de nuestra Cooperativa</h2>
-            <p>Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Delectus iste ut beatae 
-                deserunt nesciunt accusantium possimus rem 
-                incidunt aliquid architecto minima quas, 
-                velit molestiae accusamus quisquam perspiciatis 
-                eaque maiores? Molestias.
-            </p>
+     <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Noticias sobre nuestra Cooperativa
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Novedades sobre nosotros.</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus laudantium aperiam optio impedit consectetur fugit et sint nam. Natus unde magni deleniti vel tempore exercitationem, eum quam accusantium corrupti nihil!
+            </div>
+          </div>
         </div>
-    </section>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Noticias Locales
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Novedades sobre nuetra localidad.</strong> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, repellat vitae laborum nesciunt distinctio quod quam commodi earum. Repellendus quia corrupti perferendis accusantium expedita id perspiciatis possimus assumenda eos culpa!
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Nuestro Distrito
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Novedades sobre nuestros vecinos.</strong> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus itaque in laborum quaerat soluta sunt voluptates accusantium, nihil iure explicabo eveniet nesciunt doloribus, labore at, expedita autem? Soluta, ea eligendi!
+            </div>
+          </div>
+        </div>
+      </div>
 
-    <footer>
-        <div class="container">
-        <p>&copy; Cooperativa Electrica Limitada de Gonzalez Moreno</p>
+    
+      </div>
+
+      <footer>
+        <div class="card">
+          <div class="card-header">
+            Cooperativa Eelectrica Limitada de Gonzalez Moreno
+          </div>
+          <div class="card-body">
+            <blockquote class="blockquote mb-0">
+              <footer class="blockquote-footer">Gonzalez Moreno, Provincia de Buenos Aires <cite title="Source Title"></cite></footer>
+            </blockquote>
+          </div>
         </div>
-    </footer>
+      </div>  
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
