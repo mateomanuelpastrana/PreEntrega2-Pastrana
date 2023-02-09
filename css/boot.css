@@ -1,3 +1,14 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+.bodycss{
+    background-color: aliceblue;
+    margin: 20px;
+    padding: 25px;
+}
+
 .navbar-nav{
     font-size: 40px;
 }
@@ -5,4 +16,13 @@
 .navbar-brand{
     font-size: 60px;
     font-weight: bold;
+}
+
+.card-title1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.card-text1{
+    font-size: 30px;
 }
